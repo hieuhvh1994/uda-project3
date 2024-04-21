@@ -15,7 +15,7 @@ phases:
     commands:
       # Build the coworking analytics application using docker build
       - echo "Building Docker image"
-      - docker build -t coworking-analytics .
+      - docker build -t coworking-analytics analytics/
 
       # Tag the image with the docker tag command
       - echo "Tagging Docker image"
